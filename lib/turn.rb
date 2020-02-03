@@ -3,7 +3,6 @@ def display_board(board)
 end
 
 def valid_move?(board, index)
-
   def position_taken? (board, index)
     if board[index] == " " || board[index] == "" || board[index] == nil
       return false
@@ -25,5 +24,4 @@ def valid_move?(board, index)
   else
     return false
   end
-
 end
